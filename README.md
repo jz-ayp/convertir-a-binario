@@ -7,7 +7,7 @@
 
 - **Diseña un programa para convertir un número base 10 a binario** usando el procedimiento descrito más abajo.
 
-- Codifica tu solución en el archivo [`main.py`](/main.py).
+- Codifica tu solución en el archivo [`convertir_a_binario.py`](/convertir_a_binario.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas:
   ```

@@ -3,7 +3,7 @@
     on:
       push:
         paths:
-          - 'main.py'
+          - 'convertir_a_binario.py'
           - '.github/classroom/autograding.json'
 
     jobs:

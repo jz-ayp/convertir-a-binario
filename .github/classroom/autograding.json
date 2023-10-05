@@ -3,7 +3,7 @@
     {
       "name": "1",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "1",
       "output": "0*1\D$",
       "comparison": "regex",
@@ -13,7 +13,7 @@
     {
       "name": "2",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "2",
       "output": "0*10\D$",
       "comparison": "regex",
@@ -23,7 +23,7 @@
     {
       "name": "3",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "3",
       "output": "0*11\D$",
       "comparison": "regex",
@@ -33,7 +33,7 @@
     {
       "name": "4",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "4",
       "output": "0*100\D$",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "5",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "5",
       "output": "0*101\D$",
       "comparison": "regex",
@@ -53,7 +53,7 @@
     {
       "name": "10",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "10",
       "output": "0*1010\D$",
       "comparison": "regex",
@@ -63,7 +63,7 @@
     {
       "name": "15",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "15",
       "output": "0*1111\D$",
       "comparison": "regex",
@@ -73,7 +73,7 @@
     {
       "name": "151",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "151",
       "output": "0*10010111\D$",
       "comparison": "regex",
@@ -83,7 +83,7 @@
     {
       "name": "255",
       "setup": "",
-      "run": "LANG=en_US.utf8 python3 main.py",
+      "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "255",
       "output": "0*11111111\D$",
       "comparison": "regex",
