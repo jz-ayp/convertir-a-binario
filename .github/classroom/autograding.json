@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "1",
-      "output": "0*1\\D$",
+      "output": "(0)*1\\D$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
