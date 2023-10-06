@@ -89,6 +89,6 @@
       "comparison": "regex",
       "timeout": 1,
       "points": 1
-    },
+    }
   ]
 }
