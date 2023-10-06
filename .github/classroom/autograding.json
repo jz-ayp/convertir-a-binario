@@ -36,7 +36,7 @@
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "4",
       "output": "^\\D*0*100\\D*$",
-      "comparison": "included",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
