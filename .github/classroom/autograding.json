@@ -5,7 +5,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "1",
-      "output": "^\\D*0*1\\D*$",
+      "output": "^\\D*1?\\D+0*1\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "2",
-      "output": "^\\D*0*10\\D*$",
+      "output": "^\\D*2?\\D+0*10\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "3",
-      "output": "^\\D*0*11\\D*$",
+      "output": "^\\D*3?\\D+0*11\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "4",
-      "output": "^\\D*0*100\\D*$",
+      "output": "^\\D*4?\\D+0*100\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "5",
-      "output": "^\\D*0*101\\D*$",
+      "output": "^\\D*5?\\D+0*101\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "10",
-      "output": "^\\D*0*1010\\D*$",
+      "output": "^\\D*(10)?\\D+0*1010\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -65,7 +65,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "15",
-      "output": "^\\D*0*1111\\D*$",
+      "output": "^\\D*(15)?\\D+0*1111\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "151",
-      "output": "^\\D*0*10010111\\D*$",
+      "output": "^\\D*(151)?\\D+0*10010111\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 python3 convertir_a_binario.py",
       "input": "255",
-      "output": "^\\D*0*11111111\\D*$",
+      "output": "^\\D*(255)?\\D+0*11111111\\D*$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
