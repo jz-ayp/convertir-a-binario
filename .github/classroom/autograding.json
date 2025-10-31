@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "0",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 convertir_a_binario.py",
+      "input": "0",
+      "output": "^\\D*0?\\D+0*0\\D*$",
+      "comparison": "regex",
+      "timeout": 1,
+      "points": 1
+    },
+{
       "name": "1",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 1m python3 convertir_a_binario.py",
