@@ -1,0 +1,98 @@
+{
+  "assignments": [
+    {
+      "tests": [
+        {
+          "name": "0",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "0",
+          "expected": "^\\D*0?\\D+0*0\\D*$"
+        },
+        {
+          "name": "1",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "1",
+          "expected": "^\\D*1?\\D+0*1\\D*$"
+        },
+        {
+          "name": "2",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "2",
+          "expected": "^\\D*2?\\D+0*10\\D*$"
+        },
+        {
+          "name": "3",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "3",
+          "expected": "^\\D*3?\\D+0*11\\D*$"
+        },
+        {
+          "name": "4",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "4",
+          "expected": "^\\D*4?\\D+0*100\\D*$"
+        },
+        {
+          "name": "5",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "5",
+          "expected": "^\\D*5?\\D+0*101\\D*$"
+        },
+        {
+          "name": "10",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "10",
+          "expected": "^\\D*(10)?\\D+0*1010\\D*$"
+        },
+        {
+          "name": "15",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "15",
+          "expected": "^\\D*(15)?\\D+0*1111\\D*$"
+        },
+        {
+          "name": "151",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "151",
+          "expected": "^\\D*(151)?\\D+0*10010111\\D*$"
+        },
+        {
+          "name": "255",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "255",
+          "expected": "^\\D*(255)?\\D+0*11111111\\D*$"
+        }
+      ]
+    }
+  ]
+}
