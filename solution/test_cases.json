@@ -9,7 +9,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "0",
-          "expected": "^(\\D*0\\D*)?\\D+0*0\\D*$"
+          "expected": "(\\b0\\b)?0*0\\b"
         },
         {
           "name": "1",
@@ -18,7 +18,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "1",
-          "expected": "^(\\D*1\\D*)?\\D+0*1\\D*$"
+          "expected": "(\\b1\\b)?0*1\\b"
         },
         {
           "name": "2",
@@ -27,7 +27,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "2",
-          "expected": "^(\\D*2\\D*)?\\D+0*10\\D*$"
+          "expected": "(\\b2\\b)?0*10\\b"
         },
         {
           "name": "3",
@@ -36,7 +36,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "3",
-          "expected": "^(\\D*3\\D*)?\\D+0*11\\D*$"
+          "expected": "(\\b3\\b)?0*11\\b"
         },
         {
           "name": "4",
@@ -45,7 +45,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "4",
-          "expected": "^(\\D*4\\D*)?\\D+0*100\\D*$"
+          "expected": "(\\b4\\b)?0*100\\b"
         },
         {
           "name": "5",
@@ -54,7 +54,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "5",
-          "expected": "^(\\D*5\D*)?\\D+0*101\\D*$"
+          "expected": "(\\b5\\b)?0*101\\b"
         },
         {
           "name": "10",
@@ -63,7 +63,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "10",
-          "expected": "^(\\D*10\\D*)?\\D+0*1010\\D*$"
+          "expected": "(\\b10\\b)?0*1010\\b"
         },
         {
           "name": "15",
@@ -72,7 +72,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "15",
-          "expected": "^(\\D*15\D*)?\\D+0*1111\\D*$"
+          "expected": "(\\b15\\b)?0*1111\\b"
         },
         {
           "name": "151",
@@ -81,7 +81,7 @@
           "points": 1,
           "comparison": "regex",
           "input": "151",
-          "expected": "^(\\D*151\\D*)?\\D+0*10010111\\D*$"
+          "expected": "(\\b151\\b)?0*10010111\\b"
         },
         {
           "name": "255",
@@ -90,7 +90,16 @@
           "points": 1,
           "comparison": "regex",
           "input": "255",
-          "expected": "^(\\D*255\\D*)?\\D+0*11111111\\D*$"
+          "expected": "(\\b255\\b)?0*11111111\\b"
+        },
+        {
+          "name": "1000",
+          "type": "io",
+          "run": "python3 convertir_a_binario.py",
+          "points": 1,
+          "comparison": "regex",
+          "input": "1000",
+          "expected": "(\\b1000\\b)?0*1111101000\\b"
         }
       ]
     }
